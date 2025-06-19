@@ -122,11 +122,11 @@ function renderGameDetails(game) {
       <h3>${game.name}</h3>
       <img src="${game.background_image}" alt="${game.name}" class="game-details__image" />
       <div class="game-details__info">
-        <p><strong>Descripción:</strong></p>
+        <p><strong>Description:</strong></p>
         <p>${game.description_raw || 'Not available'}</p>
-        <p><strong>Géneros:</strong> ${game.genres.map(g => g.name).join(', ') || 'Unknown '}</p>
-        <p><strong>Plataformas:</strong> ${game.platforms.map(p => p.platform.name).join(', ') || 'Unknown'}</p>
-        <p><strong>Fecha de lanzamiento:</strong> ${game.released || 'Unknown'}</p>
+        <p><strong>Genres:</strong> ${game.genres.map(g => g.name).join(', ') || 'Unknown '}</p>
+        <p><strong>Platforms:</strong> ${game.platforms.map(p => p.platform.name).join(', ') || 'Unknown'}</p>
+        <p><strong>Release date:</strong> ${game.released || 'Unknown'}</p>
       </div>
     </div>
   `;
