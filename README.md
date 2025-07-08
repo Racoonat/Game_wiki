@@ -4,7 +4,7 @@ Welcome to **Game Wiki**, a mini front-end project developed as part of a Front-
 
 ## 🌐 Live Website
 
-👉 [Visit the Game Wiki here](https://TU_USUARIO.github.io/Game_wiki)  
+👉 [Visit the Game Wiki here](https://racoonat.github.io/Game_wiki/)  
 
 ---
 
